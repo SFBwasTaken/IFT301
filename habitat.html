@@ -1,0 +1,90 @@
+<!--
+Matthew Nasuta
+IFT301
+9/5/2018
+-->
+
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Taking Action: Habitat.org</title>
+    
+    <!--CSS inside the HTML file. Since this is simple CSS I found a seperate css file was not needed, no need to go and bold everything with tags for paragraphs too with this too.-->
+    <!--We open with Style tag then next add body to select that tag and add style element like how we normally do-->
+    <!--We also added a class inside the first part of the text and have a selector called centerthis, we can just specifically center this text-->
+    <!--Finally I added a footer to center the text and make the font smaller than what a normal paragraph would have.-->
+    <style>
+      body {background-color: aquamarine;}
+      p {font-weight: bold}
+      .centerthis {text-align: center}
+      footer {text-align: center; font-size: 10px}
+    </style>
+    
+  </head>
+  <!--Change of the background color to add variety-->
+  <body>
+    
+    <!--Adding our logo, aligning the text to the center for presentation wise-->
+    <img src="images/habitat_logo.png" alt="Logo">
+    <h4 class="centerthis">Sample Web Page for learning HTML5 Video and Audio Elements</h4>
+    
+    <!--Nothing special besides a list of various links that are important-->
+    <h4>Simple, decent, affordable housing</h4>
+    
+      
+        <ul>
+          <li><a href="https://www.habitat.org/volunteer"><b>Learn More</b></a></li>
+          <li><a href="https://www.habitat.org/about"><b>Volunteer</b></a></li>
+          <li><a href="https://www.habitat.org/about/advocacy"><b>Advocate</b></a></li>
+          <li><a href="https://www.habitat.org/donate/?r=r&link=1"><b>Donate</b></a></li>
+        </ul>
+      
+    
+    <!--Our mission where we go and add a photo of the habitat in. Nothing special besides what it shown on Style-->
+    <h2>Our Mission</h2>
+    
+        <p>Habitat for Humanity believes that every man, woman and child should have a decent, safe and affordable place to live. We build and repair houses all over the world using volunteer labor and donations. Our partner families purchase these houses through no-profit, no-interest mortgage loans or innovative financing methods.</p>
+        
+        <img src="images/habitat_pic1.jpg" alt="PicA">
+    
+    <!--Nothing crazy here until the video. I converted the video to OGG just incase for browser support.-->
+    <h2>Why We Build</h2>
+
+        <p>There are nearly 2 billion people around the world who live in slum housing and more than 100 million are homeless. Families left homeless by natural disasters, war and civil unrest often face dire housing situations as they struggle to rebuild their lives. We provide shelter and housing assistance to help these families recover.</p>
+        
+        <!--Added the video with two attributes of width and height
+        Also added the ogg file incase if browser isn't supported.-->
+        <video width="320" height="240" controls>
+          <source src="videos/habitat_video_Web_720.mp4">
+          <source src="videos/habitat_video_Web_720.ogg">
+          Your Browser Doesn't support this video Element
+        </video>
+
+    <!--Another message with Style. Audio this time-->
+    <h2>Advocacy in Action</h2>
+
+        <p>Volunteer Amy Miles lends her voice in support of Habitat's advocacy efforts and Global Village trips. Use the audio controls below to hear her stories.</p>
+        
+        <!--Nothing Special here but added another OGG file incase it is needed-->
+        <audio controls>
+          <source src="audio/habitat_audio.mp3">
+          <source src="audio/habitat_audio.ogg">
+          Your Browser Doesn't support this audio Element
+        </audio>
+
+    <!--Another self-explaintory part. Text with anchors and some links that were posted in the text file-->
+    <!--Once again the text is bolded-->
+    <h4>Build Your Community</h4>
+    
+      <img src="images/habitat_pic2.jpg" alt="PicB">
+        <p><a href="https://www.habitat.org/volunteer/near-you/youth-programs">Start today</a> to become the leaders of Habitat tomorrow!</p>
+
+        <p><a href="https://www.habitat.org/about">Learn About Habitat </a>| <a href="https://www.habitat.org/where-we-build">Where We Build</a> | <a href="https://www.habitat.org/support">Support Habitat</a> | <a href="https://www.habitat.org/stories">Stories and Multimedia</a></p>
+    
+    <!--Footer with it also centered along with a smaller font. It looks slightly more presentable if it was a project. The style attributes add to the page more-->
+    <footer>
+      <p>©2017 Habitat for Humanity® International. All rights reserved. "Habitat for Humanity®" is a registered service mark owned by Habitat for Humanity International. Habitat® is a service mark of Habitat for Humanity International.</p>  
+    </footer>
+  </body>
+</html>
